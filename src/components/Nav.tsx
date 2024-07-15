@@ -130,16 +130,6 @@ export default function Nav() {
             >
               <span className={`text-white`}>AA</span>
             </div>
-            {/* <Button
-              onClick={toggleTheme}
-              className="fixed bottom-0 right-0 m-4"
-            >
-              {theme === "light" ? (
-                <ModeNightIcon className="text-white" />
-              ) : (
-                <WbSunnyIcon className="text-white" />
-              )}
-            </Button> */}
             <ThemeToggleButton />
           </div>
           <div className={`flex items-center justify-between`}>

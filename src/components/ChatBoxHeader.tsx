@@ -5,7 +5,7 @@ import { useTheme } from "./ThemeContext";
 import { useChat } from "./ChatProvider";
 
 const ChatBoxHeader = () => {
-  const { selectedUserDetails } = useChat();
+  const { selectedUserDetails, setIsChatBoxOpen } = useChat();
   const { theme } = useTheme();
 
   return (

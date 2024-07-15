@@ -34,12 +34,12 @@ const ChatBoxMessages = () => {
 
   useEffect(() => {
     if (data?.data) {
-      // Filter unread messages
+      // @ts-ignore
       const unread = data?.data?.filter(
         (message: any) => message.unanswered === 1
       );
 
-      // Group messages by date
+      // @ts-ignore
       const grouped = data.data?.reduce(
         (acc: any, message: I_ChatBoxMessagesDataArrayObj) => {
           const date = new Date(message.created_at);
