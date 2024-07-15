@@ -1,4 +1,4 @@
-Live Link - https://chat-app-wryj.vercel.app/
+Live Link - https://chat-app-wryj.vercel.app/ </br>
 Technologies used - HTML, CSS, JavaScript, TypeScript, React.JS, Tailwind CSS, MUI, React Context API etc
 
 Light Theme
