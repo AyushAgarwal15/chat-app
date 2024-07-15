@@ -11,14 +11,18 @@ const ChatBoxHeader = () => {
   return (
     <>
       {selectedUserDetails.id === 0 ? (
-        <div className="flex justify-center w-full min-h-16 pt-4">
+        <div
+          className={`flex justify-center w-full min-h-16 pt-4 border-l border-gray-400 ${
+            theme === "light" ? "bg-light-secondary" : "bg-dark-secondary"
+          }`}
+        >
           <h1 className={`font-semibold text-xl text-white`}>
             No User Selected
           </h1>
         </div>
       ) : (
         <div
-          className={`flex justify-between px-4 items-center text-white min-h-16 ${
+          className={`flex justify-between px-4 border-l border-gray-400 items-center text-white min-h-16 ${
             theme === "light" ? "bg-light-secondary" : "bg-dark-secondary"
           }`}
         >

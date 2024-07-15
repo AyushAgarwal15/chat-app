@@ -106,11 +106,11 @@ const ChatBoxMessages = () => {
   if (selectedUserDetails.id === 0) {
     return (
       <p
-        className={`${
+        className={`text-xl ${
           theme === "light"
-            ? "bg-light-background text-black"
+            ? "bg-white text-light-background"
             : "bg-dark-background text-white"
-        } min-h-[80vh] flex justify-center items-center w-full`}
+        } min-h-[90vh] flex justify-center items-center w-full`}
       >
         Select a user to start the conversation.
       </p>
