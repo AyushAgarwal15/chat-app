@@ -104,8 +104,6 @@ const ChatList = ({ selectedTab }: I_ChatListProps) => {
     setIsChatBoxOpen(true);
   };
 
-  console.log(data);
-
   return (
     <main
       className={`${
